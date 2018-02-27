@@ -11,14 +11,14 @@ This library is a quick and easy integration to solve this problem for you.
 Initial setup:
 
 ```bash
-$ npm add mikegillis677/actions-on-lambda
+$ npm add actions-on-lambda
 ```
 
 ## Example
 
 ```javascript
 const { DialogflowApp } = require('actions-on-google');
-const awsOnLambda = require('actions-on-lambda');
+const actionsOnLambda = require('actions-on-lambda');
 
 function mainIntent (app) {
     app.ask("Welcome to the Example App");
@@ -37,7 +37,7 @@ function responseHandler (app) {
 }
 
 exports.handler = function (event, context) {
-    awsOnLambda(event, context, (request, response) => {
+    actionsOnLambda(event, context, (request, response) => {
         let dialogflowApp = new DialogflowApp({ request, response });
         dialogflowApp.handleRequest(responseHandler);
     });
