@@ -1,6 +1,6 @@
 {
   "name": "actions-on-lambda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run Actions on Google in an AWS Lambda Environment",
   "license": "MIT",
   "main": "index.js",
