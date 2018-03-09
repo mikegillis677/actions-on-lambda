@@ -1,6 +1,6 @@
 {
   "name": "actions-on-lambda",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Run Actions on Google in an AWS Lambda Environment",
   "license": "MIT",
   "main": "index.js",
@@ -27,7 +27,7 @@
     "node": ">=6.0"
   },
   "dependencies": {
-    "actions-on-google": "^1.8",
+    "actions-on-google": "^1.10",
     "aws-serverless-express": "github:mikegillis677/aws-serverless-express#81778dd5bf261ce013fe7585f29a9e62d68d7cbc",
     "express": "^4.15.2"
   },
