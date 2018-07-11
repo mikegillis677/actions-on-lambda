@@ -1,10 +1,10 @@
 # Actions on Google fulfillment on AWS Lambda
 
 This library enables you to easily setup a AWS Lambda function that handles requests from Google Actions using
-the `actions-on-google` NodeJS SDK.
+the `actions-on-google` version 1 NodeJS SDK.
 
-When I first was trying to solve this problem, I was frusterated at the lack of tools available.
-This library is a quick and easy integration to solve this problem for you.
+If you want to use AWS Lambda for Google Actions using `actions-on-google` version 2 (which is the current version
+supported by Dialogflow), `actions-on-google` supports that out of the box.
 
 ## Installation
 
